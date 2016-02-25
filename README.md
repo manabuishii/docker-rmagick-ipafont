@@ -9,8 +9,7 @@ rmagick and ipafont installed docker container.
 ## Sample
 
 ```
-docker run --rm -v $PWD:/work -ti manabu/rmagick:2.15.4 ruby sample.rb --src /work/no-date-0.png --dst  /work/with-date-0.png --text $(date
--Iseconds)
+docker run --rm -v $PWD:/work -ti manabuishii/docker-rmagick-ipafont:2.15.4 sample.rb --src /work/no-date-0.png --dst  /work/with-date-0.png --text $(date -Iseconds)
 ```
 
 # 参考
