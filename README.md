@@ -2,6 +2,9 @@
 
 rmagick and ipafont installed docker container.
 
+## rmagick version
+
+2.15.4
 
 ## Sample
 
